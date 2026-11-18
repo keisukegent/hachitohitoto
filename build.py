@@ -92,8 +92,8 @@ def notes(s,mins,title,key,script,ask,work):
 # ---------- 1
 s=base('',n=1)
 box(s,0.95,0.75,6.6,0.45,'AIと数字で考える！売上・利益アップ実践ワークショップ',fill=GREEN,color=WHITE,size=16,bold=True,r=0.2)
-tb(s,0.9,1.4,11.6,1.5,'今日のゴールは、\n売上と利益を増やすこと',size=44,bold=True,color=NAVY,align='l',anchor='t')
-shape(s,MSO_SHAPE.RECTANGLE,0.98,2.95,1.6,0.07,GREEN)
+tb(s,0.9,1.3,11.6,1.5,'今日のゴールは、\n売上と利益を増やすこと',size=44,bold=True,color=NAVY,align='l',anchor='t')
+shape(s,MSO_SHAPE.RECTANGLE,0.98,3.08,1.6,0.07,GREEN)
 steps=['数字を見る','考える','決める','動く']
 for i,t in enumerate(steps):
     k=MSO_SHAPE.PENTAGON if i==0 else MSO_SHAPE.CHEVRON
